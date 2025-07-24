@@ -5,7 +5,7 @@
 
 ---
 
-## 🔧 Features
+## Features
 
 - Convert `qp.Ensemble` objects into nested-pandas `NestedFrame`s
 - Handle various probability distribution types:  
@@ -16,7 +16,7 @@
 
 ---
 
-## 📦 Requirements
+## Requirements
 
 - Python 3.8+
 - [`qp`](https://github.com/LSSTDESC/qp)
@@ -28,7 +28,7 @@
 
 ---
 
-## 🧭 Function Overview
+## Function Overview
 
 | Function | Description |
 |----------|-------------|
@@ -40,7 +40,7 @@
 
 ---
 
-## 🚀 Example Usage
+## Example Usage
 
 ```python
 ens = qp.Ensemble(...)  # your qp.Ensemble object
