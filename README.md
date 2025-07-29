@@ -38,6 +38,15 @@
 
 ---
 
+## Helper Function Overview
+
+| Function | Description |
+|----------|-------------|
+| `convert_ens` | Converts a `qp.Ensemble` into multiple probabilistic formats (e.g., histogram, quantiles, interpolation, normal) and returns a dictionary of `NestedFrame` objects, using a naming convention based on the input algorithm and format. |
+| `convert_ens_to_nested_frame` | Flattens a single `qp.Ensemble` into a nested-pandas `NestedFrame`, aligning any required metadata (e.g., `xvals`, `bins`, `quants`) and grouping by object ID for downstream analysis. |
+
+---
+
 ## Example Usage
 
 ```python
