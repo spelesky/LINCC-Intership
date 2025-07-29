@@ -32,8 +32,6 @@
 
 | Function | Description |
 |----------|-------------|
-| `convert_ens_to_nested_frame` | Converts a single `qp.Ensemble` to a `NestedFrame` |
-| `convert_ens` | Converts one ensemble into multiple formats (`hist`, `quant`, `interp`, etc.) |
 | `ens_to_df` | Aggregates all converted ensemble representations into a single `pandas.DataFrame` |
 | `df_to_hats` | Converts the DataFrame to an LSDB catalog and saves it to disk in HATS format |
 | `hats_to_qp` | Loads a HATS LSDB catalog and reconstructs `qp.Ensemble` objects |
