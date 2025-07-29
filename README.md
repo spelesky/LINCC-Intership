@@ -4,6 +4,7 @@
 **`qp_to_hats`** is a utility for converting probabilistic ensembles generated using [`qp`](https://github.com/LSSTDESC/qp) into formats compatible with [HATS](https://github.com/LSSTDESC/hats) via [LSDB](https://github.com/LSSTDESC/lsdb). This tool facilitates transforming ensemble data into nested-pandas `NestedFrame`s, managing multiple distribution formats (e.g., `norm`, `hist`, `interp`, `mixmod`, `quant`), and saving them for spatial querying in LSDB catalogs.
 
 # convert_ens
+
 **`convert_ens`** 
 ---
 
