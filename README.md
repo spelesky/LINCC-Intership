@@ -18,7 +18,7 @@
 
 ## Requirements
 
-- Python 3.8+
+- Python 3.13+
 - [`qp`](https://github.com/LSSTDESC/qp)
 - [`nested-pandas`](https://github.com/LSSTDESC/nested-pandas)
 - [`lsdb`](https://github.com/LSSTDESC/lsdb)
